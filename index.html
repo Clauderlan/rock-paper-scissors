@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Rowdies:wght@300&family=Vollkorn&display=swap" rel="stylesheet">
+    <script src="js/main.js"></script>
+    <title>ROCK PAPER SCISSORS - Game</title>
+</head>
+<body>
+    <h1 id="principal-text">ROCK PAPER SCISSOR</h1>
+    <section class="home">
+        <div class="log">
+            <h1>Welcome to the game</h1>
+            <div id="form">
+                <input type="text" id="input-name"
+                placeholder="Nome">
+                <button id="submit-name" onclick="namePlayer();">START</button>
+            </div>
+            
+        </div>
+        <div class="game">
+            <div class="red">
+                <p id="player-name"></p>
+                <p id="placar-red">0</p>
+                <div id="game-tools">
+                    <button id="player-selection-paper"
+                    onclick="checkAnswer(this);">
+                        <img src="assets/paper.svg" alt="Paper">
+                    </button>
+                    <button id="player-selection-scissor" onclick="checkAnswer(this);">
+                        <img src="assets/scissor.svg" alt="scissor">
+                    </button>
+                    <button id="player-selection-rock"
+                    onclick="checkAnswer(this);">
+                        <img src="assets/rock.svg" alt="rock">
+                    </button>
+                </div>
+            </div>
+            <p id="vs">VS</p>
+            <div class="blue">
+                <p id="player-computer">COMPUTER</p>
+                <p id="placar-blue">0</p>
+                <div id="game-tools-computer">
+                    <button id="computer-selection-paper">
+                        <img src="assets/paper.svg" alt="Paper">
+                    </button>
+                    <button id="computer-selection-scissor">
+                        <img src="assets/scissor.svg" alt="scissor">
+                    </button>
+                    <button id="computer-selection-rock">
+                        <img src="assets/rock.svg" alt="rock">
+                    </button>
+                </div>
+            </div>
+            <div class="analytics-text">
+                <p id="commands">Clique na imagem referente a sua jogada.</p>
+            </div>
+        </div>
+        <div class="result">
+            <div class="mainScore">
+                <div class="redScore">
+                    <p id="playerName"></p>
+                    <h1 id="redScore"></h1>
+                    <h1>SCORE</h1>
+                </div>
+                <div class="blueScore">
+                    <p id="machine">MACHINE</p>
+                    <h1 id="blueScore"></h1>
+                    <h1>SCORE</h1>
+                </div>
+            </div>
+            <div class="score">
+                <p id="finalScore"></p>
+            </div>
+            <div class="aboutme">
+                <p>Made by Clauderlan Batista</p>
+                <div class="brands">
+                    <div class="brand-item" >
+                        <a href="https://www.linkedin.com/in/clauderlan-batista-alves-5a62921aa/" target="_blank">
+                          <img src="assets/LinkedIn.svg" alt="LinkedIn Brand">
+                        </a>
+                      </div>
+                      <div class="brand-item">
+                        <a href="https://github.com/Clauderlan" target="_blank">
+                          <img src="assets/github.svg" alt="github brand">
+                        </a>
+                      </div>
+                      <div class="brand-item">
+                        <a href="https://www.instagram.com/cbatista.07/" target="_blank">
+                          <img src="assets/instagram.svg" alt="instagram brand">
+                        </a>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
