@@ -2,6 +2,7 @@
 * 100% Responsive
 * Best of three
 * Point Counting
+* Test the game at https://clauderlan.github.io/rock-paper-scissors/
 <p align = 'center'>
   <img src="https://i.ibb.co/Dkprysx/Screenshot-2.png" alt="Screenshot-2" border="0">
   <img src="https://i.ibb.co/wwjPpST/Screenshot-1.png" alt="Game Example" border="0">
